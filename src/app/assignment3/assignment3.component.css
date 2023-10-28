@@ -1,0 +1,15 @@
+.container {
+    border: 1px solid black;
+    padding-bottom: 10px;
+    min-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container :first-of-type {
+    border: 1px solid black;
+    min-width: 40%;
+    margin-top: 10px;
+
+}

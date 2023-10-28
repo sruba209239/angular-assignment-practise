@@ -23,6 +23,13 @@ import { RouterModule } from '@angular/router';
             (m) => m.Assignment2Module
           ),
       },
+      {
+        path: 'assignment3',
+        loadChildren: () =>
+          import('./assignment3/assignment3.module').then(
+            (m) => m.Assignment3Module
+          ),
+      },
     ]),
   ],
   providers: [],
