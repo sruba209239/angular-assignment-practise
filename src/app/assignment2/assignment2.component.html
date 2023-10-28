@@ -1,0 +1,10 @@
+<div class="view-type">
+    <select (input)="onInput($event.target)">
+        <option selected>Grid View</option>
+        <option>List View</option>
+    </select>
+</div>
+<div class="container">
+    <div *ngFor="let box of boxData" [ngClass]="selection">
+    </div>
+</div>
